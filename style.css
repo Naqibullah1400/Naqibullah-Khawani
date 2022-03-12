@@ -1,0 +1,54 @@
+div {
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+    margin: 0 auto !important;
+    padding: 3px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+form label,
+input {
+    display: block;
+}
+
+input[type="radio"] {
+    display: inline !important;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="email"] {
+    width: 90%;
+    height: 1.2rem;
+    margin: 2px auto;
+}
+
+input[type="submit"] {
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+}
+
+input {
+    margin-bottom: 15px !important;
+}
+
+input[type="radio"],
+label {
+    margin-left: 15px;
+}
+
+textarea {
+    width: 90% !important;
+    margin: 2px 17px !important;
+}

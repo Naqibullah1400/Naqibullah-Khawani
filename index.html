@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+
+<body>
+
+    <div>
+
+        <h3>Student Registeration Form</h3>
+        <hr>
+        <form action="login" method="post">
+
+            <label for="firstName">firstName</label>
+            <input type="text" placeholder="firstName" required>
+
+            <label for="middleName">middleName</label>
+            <input type="text" placeholder="firstName" required>
+
+            <label for="lastName">lastName</label>
+            <input type="text" placeholder="firstName" required>
+
+            <label for="course" style="display: inline;">Course</label>
+            <select name="course" id="course">
+                <option value="Python" selected>Python</option>
+                <option value="Java">Java</option>
+                <option value="PHP">PHP</option>
+                <option value="javaScript">JavaScript</option>
+            </select>
+
+            <label for="#" style="margin-top: 10px;">Gender:</label>
+            <input type="radio" value="Male" name="gender" checked>
+            <input type="radio" value="Female" name="gender">
+            <input type="radio" value="Other" name="gender">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" value="+93" readonly>
+            <input type="tel" placeholder="phone no" required>
+
+            <label for="address">Current Address</label>
+            <textarea name="address" id="address" cols="50" rows="3" placeholder="Current Address"></textarea>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" minlength="8" required>
+
+            <label for="re-type-pass">Re-type-Password</label>
+            <input type="password" id="re-type-pass" minlength="8" placeholder="Re-type-Password" required>
+
+            <input type="submit" value="Register">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
