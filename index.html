@@ -41,7 +41,7 @@
 
             <label for="phone">Phone:</label>
             <input type="tel" value="+93" readonly>
-            <input type="tel" placeholder="phone no" required>
+            <input type="tel" placeholder="phone no" pattern="(^[+&3&9&7]{4}[0-9]{8})" required>
 
             <label for="address">Current Address</label>
             <textarea name="address" id="address" cols="50" rows="3" placeholder="Current Address"></textarea>
@@ -50,10 +50,10 @@
             <input type="email" id="email" placeholder="Email" required>
 
             <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Password" minlength="8" required>
+            <input type="password" id="password" placeholder="Password" pattern="([A-Za-z]{5,})([^A-Za-z0-9]){1,}([0-9]{2,})" required>
 
             <label for="re-type-pass">Re-type-Password</label>
-            <input type="password" id="re-type-pass" minlength="8" placeholder="Re-type-Password" required>
+            <input type="password" id="re-type-pass" pattern="([A-Za-z]{5,})([^A-Za-z0-9]){1,}([0-9]{2,})" placeholder="Re-type-Password " required>
 
             <input type="submit" value="Register">
 
